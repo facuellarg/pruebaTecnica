@@ -40,12 +40,12 @@ el cual nos da como resultado:
         set value if you want the output in a file
 ```
 El parametro __in__ nos permite especificar la ruta del archivo csv de entrada, el cual por defecto es _example.in_. El parametro __out__ nos permite especificar el arhivo de salida, por defecto se usa la consola.
-por ejemplo si queremos que el programa lea el archivo _myInput.csv_ y nos de el resultado en el archivo _myOutput.json_ correremos el siguiente comando
+Por ejemplo si queremos que el programa lea el archivo _myInput.csv_ y nos de el resultado en el archivo _myOutput.json_ correremos el siguiente comando
 
 ```
 $ go run *.go -in=myInput.csv -out=myOutput.json
 ```
-Esto nos crear el archivo _myOutput.json_ con la salida correspondiente al archivo de entrada.
+Esto nos crea el archivo _myOutput.json_ con la salida correspondiente al archivo de entrada.
 
 El proyecto contiene el archivo de ejemplo _example.in_, para correr el programa y ver el resultado en consola usamos el comando 
 ```
