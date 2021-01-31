@@ -2,7 +2,7 @@
 ## Parte 1
 
 En este proyecto se pide ofrecer un endpoint que debe dar como resultado el acumulado de ventas de los dias indicados en la peticion.  
-Para este endpoint se hizo uso de una de las grande ventajas de Go, la paralelización, para asi lograr hacer las peticiones de manera asincrona y disminuir bastante el tiempo de respuesta.  
+Para este endpoint se hizo uso de una de las grandes ventajas de Go, la paralelización, para asi lograr hacer las peticiones de manera asincrona y disminuir bastante el tiempo de respuesta.  
 Tambien se uso el framework [echo] para crear las peticiones.
 
 para correr este proyecto debemos situarnos en la carpera _parte1_ y ejecutar el comando   
